@@ -1,0 +1,23 @@
+.search {
+  width: 100px;
+  height: 24px;
+  color: turquoise;
+  font-weight: bold;
+  border-radius: 10px;
+  border-color: turquoise;
+}
+.plus {
+  width: 30px;
+  height: 30px;
+  background-color: turquoise;
+  color:white;
+  border-color: turquoise;
+  border-radius: 50%;
+}
+.create_account {
+  width: 150px;
+  height: 30px;
+  color: white;
+  background-color: dodgerblue;
+  box-shadow: 5px 5px 0px 0px black;
+}

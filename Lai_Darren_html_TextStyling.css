@@ -1,0 +1,26 @@
+h1 {
+  text-align: left; 
+  font-family: cursive;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+}
+.cloudtext {
+  color: aqua;
+}
+h2 {
+  text-align: center;
+  font-family: serif;
+  font-style: italic;
+  font-weight: light;
+  background-color: rebeccapurple;
+  color: white;
+}
+h3 {
+  text-align: right;
+  font-family: sans-serif;
+  text-decoration: underline;
+  font-weight: light;
+  background-color: #92B3E7;
+  
+}
