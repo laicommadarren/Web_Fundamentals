@@ -1,0 +1,32 @@
+.container {
+padding: 0px;
+}
+.top_border {
+  background-color: teal;
+  height: 100px;
+}
+.profile_circle {
+  width: 70px;
+  position: absolute;
+  top: 70px;
+  left: 30px;
+}
+h1 {
+  margin-top: 40px;
+}
+main {
+  font-family: sans-serif;
+  padding-left: 20px;
+}
+.map_marker {
+  width: 10px;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.settings {
+  width: 15px;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
