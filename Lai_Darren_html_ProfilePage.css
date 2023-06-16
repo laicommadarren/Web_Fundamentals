@@ -1,0 +1,200 @@
+* {
+  font-family: sans-serif; 
+}
+header * {
+  color: white;
+  text-decoration: none;
+  margin: auto;
+}
+header {
+  height: 60px;
+  background-color: black;
+  margin: auto;
+  align-items: center;
+  
+}
+.headerbox {
+  font-size: 105%;
+  width: 1050px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  right: 25px;
+}
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin-left: 0px;
+}
+.active {
+  font-weight: bold;
+}
+.btn {
+  height: 35px;
+  width: 80px;
+  border: solid;
+  background-color: teal;
+  border-color: black;
+  box-shadow: 2px 2px black;
+  margin-right: 0px;
+  font-size: 15px;
+}
+li {
+  padding: 12px;
+}
+.background {
+  width: 1000px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.leftColumn {
+  display: block;
+  margin-right: 10px;
+  flex: 4;
+}
+
+.profile {
+  border: solid silver;
+  font-weight: bold;
+}
+.topBorder {
+  background-color: teal;
+  height: 100px;
+  margin-bottom: -70px;
+}
+.profilePic {
+  width: 100px;
+  border-radius: 50%;
+  position: relative;
+  top: 15px;
+  left: 30px;
+  border: solid silver;
+}
+.profile > main {
+  font-family: sans-serif;
+  padding-left: 30px;
+}
+
+.mapMarker {
+  width: 12px;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+  margin-top: -10px;
+}
+.settings {
+  width: 15px;
+  margin-right: 10px;
+  position: relative;
+  top: 3px;
+}
+.education {
+  border: solid silver;
+  margin-top: 30px;
+}
+.education > * {
+  padding-left: 30px;
+}
+.educationTop {
+  background-color: dimgray;
+  color: white;
+  height: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 120%
+}
+h3 {
+  margin-bottom: 3px;
+}
+.education > p {
+  color: gray;
+}
+h4 {
+  margin-top: 0px;
+}
+
+.rightColumn {
+  display: block;
+  margin-left: 10px;
+  flex: 2;
+  font-size: 110%;
+  font-weight: bold;
+}
+.connectionRequests {
+  border: solid silver;
+}
+.connectionTop {
+  padding: 15px;
+  height: 20px;
+  background-color: dimgray;
+  color: white;
+}
+div > .row {
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.requestsNumber {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  padding-right: 7px;
+  background-color: lightgray;
+  color: black !important;
+  align-items: center;
+  margin-right: 10px;
+}
+.profilePic2 {
+  width: 40px;
+  border-radius: 50%
+}
+.checkOrXButton {
+  width: 30px;
+  position: relative;
+  top: 6px
+}
+label {
+  position: relative;
+  top: -13px;
+  margin-left: 10px;
+}
+.yourConnections {
+  border: solid silver;
+  margin-top: 30px;
+}
+.yourTop {
+  padding: 15px;
+  height: 20px;
+  background-color: dimgray;
+  color: white;
+}
+.connectionNumber {
+  border-radius: 50%;
+  width: 100px;
+  height: 50px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 11px;
+  padding-right: 10px;
+  background-color: lightgray;
+  text-align: center;
+  color: black !important;
+  margin-right: 10px;
+}
+.row2 {
+  margin: 10px;
+  justify-content: left;
+}
+.viewMore {
+  border-top: solid silver;
+  padding: 10px;
+}
