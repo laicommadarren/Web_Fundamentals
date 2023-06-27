@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: flex;
+  margin: auto;
+}
+
+nav > ul {
+  display: flex;
+  margin: auto;
+  padding-top: 10px;
+  list-style-type: none;
+  justify-content: space-around;
+  width: 60%;
+  font-size: 14px;
+}
+
+li {
+
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profilePic {
+  display: flex;
+  max-width: 25%;
+  margin: auto;
+}
+
+#socialMedia {
+  display: flex;
+  width: 20%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#socialMedia > img {
+  width: 15%;
+ margin-top: 20px;
+}
+#socialMedia > img:hover {
+  width: 20%;
+}
