@@ -7,59 +7,120 @@
 .leftColumn {
   position: fixed;
   width: 20%;
-  border-right: solid black;
 }
 
 .rightColumn {
   position: fixed;
-  right: 0;
+  right: 0px;
   width: 20%;
-  border-left: solid black;
 }
 
 .leftColumn > img, .rightColumn > img{
   width: 100%;
 }
+/* for computer screens */
+@media (min-width: 481px) {
+  .navScreen {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 60%;
+    font-size: 1.5vw;
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    background-color: white;
+    padding-top: 10px;
+  }
 
-nav {
-  display: flex;
-  list-style-type: none;
-  justify-content: space-evenly;
-  width: 60%;
-  font-size: 1.5vw;
-  position: fixed;
-  left: 20%;
-  top: 0%;
-  color: black;
-  background-color: white;
+  .navMobile {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .profilePic {
+    display: flex;
+    max-width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+  }
+
+  #aboutMe, #education, #techSkills, #projects {
+    margin: auto;
+    margin-top: 30px;
+    width: 60%;
+    text-align: center;
+    border: solid black;
+    padding: 30px;
+  }
+  #aboutMe {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+/* for small screens */ 
+@media (max-width:480px) {
+  .navScreen {
+    display: none;
+  }
+
+  .navMobile {
+    position: fixed;
+    left: 20%;
+    top: 0%;
+    width: 60%;
+    padding-top: 10px;
+    background: white;
+  }
+
+  .navMobileRow {
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    font-size: 3.5vw;
+    justify-content: space-evenly;
+    background-color: white;
+    padding-top: 10px;
+  }
+
+  h1 {
+    text-align: center;
+    padding-top: 100px;
+  }
+  
+  .profilePic {
+    display: flex;
+    max-width: 25%;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 10%;
+  }
+  
+  #aboutMe, #education, #techSkills, #projects {
+    position: relative;
+    left: 20%;
+    margin: 0px auto;
+    margin-top: 10px;
+    width: 60%;
+    text-align: center;
+    border: solid black;
+    padding: 0px;
+  }
+  #aboutMe {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
 
-h1 {
-  text-align: center;
-  padding-top: 100px;
-}
 
-.profilePic {
-  display: flex;
-  max-width: 25%;
-  margin: auto;
-  margin-top: 20px;
-  border-radius: 10%;
-}
 
-#aboutMe, #education, #techSkills, #projects {
-  margin: auto;
-  margin-top: 30px;
-  width: 60%;
-  text-align: center;
-  border: solid black;
-  padding: 30px;
-}
 
-#aboutMe {
-  padding-left: 80px;
-  padding-right: 80px;
-}
+
 
 .pi {
   width: 5%;
